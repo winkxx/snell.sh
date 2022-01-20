@@ -5,9 +5,9 @@ CONF="/etc/snell/snell-server.conf"
 SYSTEMD="/etc/systemd/system/snell.service"
 yum install unzip -y
 cd ~/
-wget --no-check-certificate -O snell.zip https://github.com/surge-networks/snell/releases/download/2.0.5/snell-server-v2.0.5-linux-amd64.zip
-unzip -o snell.zip
-rm -f snell.zip
+wget  https://github.com/surge-networks/snell/releases/download/v3.0.0rc2/snell-server-v3.0.0-linux-amd64.zip
+unzip snell-server-v3.0.0-linux-amd64.zip
+rm -f snell-server-v3.0.0-linux-amd64.zip
 chmod +x snell-server
 mv -f snell-server /usr/local/bin/
 if [ -f ${CONF} ]; then
