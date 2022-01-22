@@ -7,7 +7,7 @@
 ## https://hub.docker.com/repository/docker/primovist/snell-docker
 
 
-### 该版本是修改版本--修改snell版本为V3.0.0RC2[原版](https://github.com/primovist/snell.sh)
+### 该版本是修改版本--修改snell版本为V3.0.0[原版](https://github.com/primovist/snell.sh)
 Debian & Ubuntu 用户请运行
 
 ```
